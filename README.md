@@ -37,3 +37,7 @@ $ php artisan make:model Categorie
 * create a controller for "product" with these functions (index,show,store,create,edit,update,delete)
 $ php artisan make:controller ProduitController --resource
 ```
+## create data to db
+```
+$ php artisan db:seed
+```
